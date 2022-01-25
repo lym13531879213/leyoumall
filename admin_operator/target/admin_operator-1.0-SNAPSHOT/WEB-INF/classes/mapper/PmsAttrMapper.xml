@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.mall.mapper.PmsAttrMapper">
+  <resultMap id="BaseResultMap" type="cn.com.mall.entity.PmsAttr">
+    <!--@mbg.generated-->
+    <!--@Table pms_attr-->
+    <id column="attr_id" jdbcType="BIGINT" property="attrId" />
+    <result column="attr_name" jdbcType="VARCHAR" property="attrName" />
+    <result column="search_type" jdbcType="TINYINT" property="searchType" />
+    <result column="icon" jdbcType="VARCHAR" property="icon" />
+    <result column="value_select" jdbcType="VARCHAR" property="valueSelect" />
+    <result column="attr_type" jdbcType="TINYINT" property="attrType" />
+    <result column="enable" jdbcType="BIGINT" property="enable" />
+    <result column="catelog_id" jdbcType="BIGINT" property="catelogId" />
+    <result column="show_desc" jdbcType="TINYINT" property="showDesc" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    attr_id, attr_name, search_type, icon, value_select, attr_type, `enable`, catelog_id, 
+    show_desc, create_time, update_time
+  </sql>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.mall.mapper.PmsAttrGroupMapper">
+  <resultMap id="BaseResultMap" type="cn.com.mall.entity.PmsAttrGroup">
+    <!--@mbg.generated-->
+    <!--@Table pms_attr_group-->
+    <id column="attr_group_id" jdbcType="BIGINT" property="attrGroupId" />
+    <result column="attr_group_name" jdbcType="VARCHAR" property="attrGroupName" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="descript" jdbcType="VARCHAR" property="descript" />
+    <result column="icon" jdbcType="VARCHAR" property="icon" />
+    <result column="catelog_id" jdbcType="BIGINT" property="catelogId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    attr_group_id, attr_group_name, sort, descript, icon, catelog_id, create_time, update_time
+  </sql>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.mall.mapper.WmsPurchaseMapper">
+  <resultMap id="BaseResultMap" type="cn.com.mall.entity.WmsPurchase">
+    <!--@mbg.generated-->
+    <!--@Table wms_purchase-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="assignee_id" jdbcType="BIGINT" property="assigneeId" />
+    <result column="assignee_name" jdbcType="VARCHAR" property="assigneeName" />
+    <result column="phone" jdbcType="CHAR" property="phone" />
+    <result column="priority" jdbcType="INTEGER" property="priority" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="ware_id" jdbcType="BIGINT" property="wareId" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, assignee_id, assignee_name, phone, priority, `status`, ware_id, amount, create_time, 
+    update_time
+  </sql>
+</mapper>

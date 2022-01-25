@@ -1,0 +1,6 @@
+cn\com\mall\service\CategoryService.class
+cn\com\mall\controller\BaseController.class
+cn\com\mall\controller\Demo.class
+cn\com\mall\service\impl\CategoryServiceImpl.class
+cn\com\mall\config\redis\RedisConfig.class
+cn\com\mall\mapper\CategoryMapper.class

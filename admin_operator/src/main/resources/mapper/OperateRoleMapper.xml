@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.mall.mapper.OperateRoleMapper">
+    <select id="getList" resultType="cn.com.mall.entity.OperateRole">
+        select role_id,
+               role_name,
+               user_count,
+               remark,
+               create_time,
+               update_time,
+               `status`
+        from leyoumall.operate_role
+                where deleted = 0
+        <if test="roleId != null">
+            and role_id = #{roleId}
+        </if>
+        <if test="status != null">
+            and `status` = #{status}
+        </if>
+        <if test="roleName != null and roleName != ''">
+            and role_name like concat('%', #{roleName}, '%')
+        </if>
+    </select>
+
+    <insert id="addRole" parameterType="cn.com.mall.pojo.dto.operator.AddRoleDTO">
+        insert into leyoumall.operate_role(role_name, user_count, remark, create_time, update_time, `status`, deleted)
+        VALUES (#{roleName}, 0, #{remark}, now(), now(), #{status}, 0)
+    </insert>
+
+    <update id="modifyRole">
+        update leyoumall.operate_role
+        set role_name   = #{roleName},
+            remark      = #{remark},
+            update_time = now()
+        where role_id = #{roleId}
+    </update>
+
+    <select id="getById" resultType="cn.com.mall.entity.OperateRole">
+        select role_id,
+               role_name,
+               user_count,
+               remark,
+               create_time,
+               update_time,
+               `status`
+        from leyoumall.operate_role
+        where deleted = 0
+          and role_id = #{roleId}
+    </select>
+</mapper>
