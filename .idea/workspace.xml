@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="admin_operator:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b42163c1-23a4-4cc4-b344-e62ee6950722" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/08e66602-c530-4f08-8018-1a36cb8bd6ab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/08e66602-c530-4f08-8018-1a36cb8bd6ab/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/druid-1.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/admin_business-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/jwt/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/jwt/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/jwt/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/shiro/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/filter/SimpleCorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/operator/OperatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/operator/OperatorMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/operator/OperatorRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/pms/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/pms/GoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsPaymentInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsRefundInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperatePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateRolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsAttrAttrgroupRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsAttrGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsAttrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsCategoryBrandRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsCommentReplayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsProductAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSkuImagesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSkuSaleAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSpuImagesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSpuInfoDescMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponSpuCategoryRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponSpuRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsHomeAdvMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsHomeSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsHomeSubjectSpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsMemberPriceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillPromotionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillSessionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillSkuNoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillSkuRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSkuFullReductionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSkuLadderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSpuBoundsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberCollectSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberLevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsPurchaseDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsPurchaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareOrderTaskDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareOrderTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareSkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/AddRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/AssignDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/ModifyOperatorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/ModifyRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/AddBrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/AddCategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/ModifyBrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/ModifyCategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/TransferCategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/vo/operator/OperateMenuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/vo/operator/OperatorInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/vo/pms/ModifyCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderOperateHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderReturnApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderReturnReasonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsPaymentInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsRefundInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperatePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateRolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsAttrAttrgroupRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsAttrGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsAttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsBrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsCategoryBrandRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsCommentReplayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsProductAttrValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSkuImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSkuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSkuSaleAttrValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSpuImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSpuInfoDescService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponSpuCategoryRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponSpuRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsHomeAdvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsHomeSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsHomeSubjectSpuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsMemberPriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillPromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillSessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillSkuNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillSkuRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSkuFullReductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSkuLadderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSpuBoundsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsGrowthChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsIntegrationChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberCollectSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberLevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberReceiveAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberStatisticsInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsPurchaseDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsPurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareOrderTaskDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareOrderTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareSkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderOperateHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderReturnApplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderReturnReasonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsPaymentInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsRefundInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperatePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsAttrAttrgroupRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsAttrGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsAttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsBrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsCategoryBrandRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsCommentReplayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsProductAttrValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSkuImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSkuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSkuSaleAttrValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSpuImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSpuInfoDescServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponSpuRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsHomeAdvServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsHomeSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsHomeSubjectSpuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsMemberPriceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillPromotionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillSessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillSkuNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillSkuRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSkuFullReductionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSkuLadderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSpuBoundsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsGrowthChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberCollectSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberLevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberStatisticsInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsPurchaseDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsPurchaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareOrderTaskDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareOrderTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareSkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsPaymentInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsRefundInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperatePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrAttrgroupRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCategoryBrandRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsProductAttrValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuSaleAttrValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSpuImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSpuInfoDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponSpuCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponSpuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeAdvMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeSubjectSpuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsMemberPriceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillPromotionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSkuNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSkuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSkuFullReductionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSkuLadderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSpuBoundsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberCollectSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsPurchaseDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsPurchaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareOrderTaskDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareOrderTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/config/auth/jwt/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/config/auth/jwt/JwtToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/config/auth/jwt/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/config/auth/shiro/MyRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/config/filter/SimpleCorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/config/redis/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/controller/operator/OperatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/controller/operator/OperatorMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/controller/operator/OperatorRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/controller/pms/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/controller/pms/GoodsCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/BusinessMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/BusinessRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/BusinessRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/BusinessUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsOrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsOrderOperateHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsOrderReturnApplyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsOrderReturnReasonMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsOrderSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsPaymentInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OmsRefundInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperateMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperatePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperateRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperateRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperateRolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperateUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/OperateUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsAttrAttrgroupRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsAttrGroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsAttrMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsCategoryBrandRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsCommentReplayMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsProductAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsSkuImagesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsSkuInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsSkuSaleAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsSpuImagesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/PmsSpuInfoDescMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsCouponHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsCouponMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsCouponSpuCategoryRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsCouponSpuRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsHomeAdvMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsHomeSubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsHomeSubjectSpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsMemberPriceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSeckillPromotionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSeckillSessionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSeckillSkuNoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSeckillSkuRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSkuFullReductionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSkuLadderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/SmsSpuBoundsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsGrowthChangeHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsIntegrationChangeHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsMemberCollectSubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsMemberLevelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsMemberLoginLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsMemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsMemberReceiveAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/UmsMemberStatisticsInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/WmsPurchaseDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/WmsPurchaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/WmsWareInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/WmsWareOrderTaskDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/WmsWareOrderTaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/mapper/WmsWareSkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/operator/AddRoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/operator/AssignDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/operator/LoginDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/operator/ModifyOperatorDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/operator/ModifyRoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/pms/AddBrandDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/pms/AddCategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/pms/ModifyBrandDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/pms/ModifyCategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/dto/pms/TransferCategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/vo/operator/OperateMenuVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/vo/operator/OperatorInfoVO$OperatorInfoVOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/vo/operator/OperatorInfoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/pojo/vo/pms/ModifyCategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/BusinessMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/BusinessRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/BusinessRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/BusinessUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsOrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsOrderOperateHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsOrderReturnApplyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsOrderReturnReasonService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsOrderSettingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsPaymentInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OmsRefundInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperateMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperatePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperateRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperateRolePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperateRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperateUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/OperateUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsAttrAttrgroupRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsAttrGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsAttrService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsBrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsCategoryBrandRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsCommentReplayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsProductAttrValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsSkuImagesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsSkuInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsSkuSaleAttrValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsSpuImagesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/PmsSpuInfoDescService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsCouponHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsCouponService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsCouponSpuCategoryRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsCouponSpuRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsHomeAdvService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsHomeSubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsHomeSubjectSpuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsMemberPriceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSeckillPromotionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSeckillSessionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSeckillSkuNoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSeckillSkuRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSkuFullReductionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSkuLadderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/SmsSpuBoundsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsGrowthChangeHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsIntegrationChangeHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsMemberCollectSubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsMemberLevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsMemberLoginLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsMemberReceiveAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsMemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/UmsMemberStatisticsInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/WmsPurchaseDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/WmsPurchaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/WmsWareInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/WmsWareOrderTaskDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/WmsWareOrderTaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/WmsWareSkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/BusinessMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/BusinessRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/BusinessRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/BusinessUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsOrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsOrderOperateHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsOrderReturnApplyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsOrderReturnReasonServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsOrderSettingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsPaymentInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OmsRefundInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperateMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperatePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperateRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperateRolePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperateRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperateUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/OperateUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsAttrAttrgroupRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsAttrGroupServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsAttrServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsBrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsCategoryBrandRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsCommentReplayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsProductAttrValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsSkuImagesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsSkuInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsSkuSaleAttrValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsSpuImagesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/PmsSpuInfoDescServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsCouponHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsCouponServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsCouponSpuCategoryRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsCouponSpuRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsHomeAdvServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsHomeSubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsHomeSubjectSpuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsMemberPriceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSeckillPromotionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSeckillSessionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSeckillSkuNoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSeckillSkuRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSkuFullReductionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSkuLadderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/SmsSpuBoundsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsGrowthChangeHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsIntegrationChangeHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsMemberCollectSubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsMemberLevelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsMemberLoginLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsMemberReceiveAddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/UmsMemberStatisticsInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/WmsPurchaseDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/WmsPurchaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/WmsWareInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/WmsWareOrderTaskDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/WmsWareOrderTaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/cn/com/mall/service/impl/WmsWareSkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/BusinessMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/BusinessRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/BusinessRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/BusinessUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsPaymentInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OmsRefundInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperateMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperatePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperateRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperateRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperateRolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperateUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/OperateUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsAttrAttrgroupRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsAttrGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsAttrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsCategoryBrandRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsProductAttrValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsSkuImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsSkuInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsSkuSaleAttrValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsSpuImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/PmsSpuInfoDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsCouponSpuCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsCouponSpuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsHomeAdvMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsHomeSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsHomeSubjectSpuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsMemberPriceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSeckillPromotionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSeckillSessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSeckillSkuNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSeckillSkuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSkuFullReductionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSkuLadderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/SmsSpuBoundsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsMemberCollectSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/WmsPurchaseDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/WmsPurchaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/WmsWareInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/WmsWareOrderTaskDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/WmsWareOrderTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mapper/WmsWareSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/druid-1.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/encoder-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/java-jwt-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/okhttp-3.14.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/okio-1.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/qiniu-java-sdk-7.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-cache-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-config-core-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-config-ogdl-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-core-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-crypto-cipher-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-crypto-core-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-crypto-hash-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-event-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-lang-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/shiro-web-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.6.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/admin_operator-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/config/auth/jwt/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/config/auth/jwt/JwtToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/config/auth/jwt/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/config/auth/shiro/MyRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/config/filter/SimpleCorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/config/redis/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/controller/operator/OperatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/controller/operator/OperatorMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/controller/operator/OperatorRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/controller/pms/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/controller/pms/GoodsCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/BusinessMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/BusinessRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/BusinessRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/BusinessUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsOrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsOrderOperateHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsOrderReturnApplyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsOrderReturnReasonMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsOrderSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsPaymentInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OmsRefundInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperateMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperatePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperateRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperateRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperateRolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperateUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/OperateUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsAttrAttrgroupRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsAttrGroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsAttrMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsCategoryBrandRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsCommentReplayMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsProductAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsSkuImagesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsSkuInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsSkuSaleAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsSpuImagesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/PmsSpuInfoDescMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsCouponHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsCouponMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsCouponSpuCategoryRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsCouponSpuRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsHomeAdvMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsHomeSubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsHomeSubjectSpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsMemberPriceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSeckillPromotionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSeckillSessionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSeckillSkuNoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSeckillSkuRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSkuFullReductionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSkuLadderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/SmsSpuBoundsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsGrowthChangeHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsIntegrationChangeHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsMemberCollectSubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsMemberLevelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsMemberLoginLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsMemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsMemberReceiveAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/UmsMemberStatisticsInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/WmsPurchaseDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/WmsPurchaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/WmsWareInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/WmsWareOrderTaskDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/WmsWareOrderTaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/mapper/WmsWareSkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/operator/AddRoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/operator/AssignDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/operator/LoginDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/operator/ModifyOperatorDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/operator/ModifyRoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/pms/AddBrandDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/pms/AddCategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/pms/ModifyBrandDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/pms/ModifyCategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/dto/pms/TransferCategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/vo/operator/OperateMenuVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/vo/operator/OperatorInfoVO$OperatorInfoVOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/vo/operator/OperatorInfoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/pojo/vo/pms/ModifyCategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/BusinessMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/BusinessRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/BusinessRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/BusinessUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsOrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsOrderOperateHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsOrderReturnApplyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsOrderReturnReasonService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsOrderSettingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsPaymentInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OmsRefundInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperateMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperatePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperateRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperateRolePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperateRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperateUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/OperateUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsAttrAttrgroupRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsAttrGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsAttrService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsBrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsCategoryBrandRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsCommentReplayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsProductAttrValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsSkuImagesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsSkuInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsSkuSaleAttrValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsSpuImagesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/PmsSpuInfoDescService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsCouponHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsCouponService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsCouponSpuCategoryRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsCouponSpuRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsHomeAdvService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsHomeSubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsHomeSubjectSpuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsMemberPriceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSeckillPromotionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSeckillSessionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSeckillSkuNoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSeckillSkuRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSkuFullReductionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSkuLadderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/SmsSpuBoundsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsGrowthChangeHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsIntegrationChangeHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsMemberCollectSubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsMemberLevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsMemberLoginLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsMemberReceiveAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsMemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/UmsMemberStatisticsInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/WmsPurchaseDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/WmsPurchaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/WmsWareInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/WmsWareOrderTaskDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/WmsWareOrderTaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/WmsWareSkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/BusinessMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/BusinessRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/BusinessRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/BusinessUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsOrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsOrderOperateHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsOrderReturnApplyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsOrderReturnReasonServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsOrderSettingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsPaymentInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OmsRefundInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperateMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperatePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperateRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperateRolePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperateRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperateUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/OperateUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsAttrAttrgroupRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsAttrGroupServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsAttrServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsBrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsCategoryBrandRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsCommentReplayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsProductAttrValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsSkuImagesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsSkuInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsSkuSaleAttrValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsSpuImagesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/PmsSpuInfoDescServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsCouponHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsCouponServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsCouponSpuCategoryRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsCouponSpuRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsHomeAdvServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsHomeSubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsHomeSubjectSpuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsMemberPriceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSeckillPromotionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSeckillSessionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSeckillSkuNoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSeckillSkuRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSkuFullReductionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSkuLadderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/SmsSpuBoundsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsGrowthChangeHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsIntegrationChangeHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsMemberCollectSubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsMemberLevelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsMemberLoginLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsMemberReceiveAddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/UmsMemberStatisticsInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/WmsPurchaseDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/WmsPurchaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/WmsWareInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/WmsWareOrderTaskDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/WmsWareOrderTaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/cn/com/mall/service/impl/WmsWareSkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/BusinessMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/BusinessRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/BusinessRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/BusinessUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsPaymentInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OmsRefundInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperateMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperatePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperateRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperateRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperateRolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperateUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/OperateUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsAttrAttrgroupRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsAttrGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsAttrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsCategoryBrandRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsProductAttrValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsSkuImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsSkuInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsSkuSaleAttrValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsSpuImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/PmsSpuInfoDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsCouponSpuCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsCouponSpuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsHomeAdvMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsHomeSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsHomeSubjectSpuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsMemberPriceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSeckillPromotionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSeckillSessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSeckillSkuNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSeckillSkuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSkuFullReductionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSkuLadderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/SmsSpuBoundsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsMemberCollectSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/WmsPurchaseDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/WmsPurchaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/WmsWareInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/WmsWareOrderTaskDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/WmsWareOrderTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mapper/WmsWareSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_operator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/druid-1.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/common/QiNiuParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/common/contanst/CommonContanst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/common/enums/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/BusinessMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/BusinessRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/BusinessRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/BusinessUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsOrderOperateHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsOrderReturnApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsOrderReturnReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsOrderSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsPaymentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OmsRefundInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperatePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateRolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsAttr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsAttrAttrgroupRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsAttrGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsCategoryBrandRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsCommentReplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsProductAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsSkuImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsSkuInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsSkuSaleAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsSpuImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/PmsSpuInfoDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsCouponHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsCouponSpuCategoryRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsCouponSpuRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsHomeAdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsHomeSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsHomeSubjectSpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsMemberPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSeckillPromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSeckillSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSeckillSkuNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSeckillSkuRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSkuFullReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSkuLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/SmsSpuBounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsGrowthChangeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsIntegrationChangeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsMemberCollectSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsMemberLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsMemberLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsMemberReceiveAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/UmsMemberStatisticsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/WmsPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/WmsPurchaseDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/WmsWareInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/WmsWareOrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/WmsWareOrderTaskDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/WmsWareSku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/AssertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/QiNiuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/SaltUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/PinYinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/common/QiNiuParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/common/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/common/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/common/contanst/CommonContanst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/common/enums/StatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/BusinessMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/BusinessRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/BusinessRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/BusinessUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsOrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsOrderOperateHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsOrderReturnApply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsOrderReturnReason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsOrderSetting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsPaymentInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OmsRefundInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperateMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperatePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperateRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperateRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperateRolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperateUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/OperateUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsAttr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsAttrAttrgroupRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsAttrGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsCategoryBrandRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsCommentReplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsProductAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsSkuImages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsSkuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsSkuSaleAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsSpuImages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/PmsSpuInfoDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsCoupon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsCouponHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsCouponSpuCategoryRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsCouponSpuRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsHomeAdv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsHomeSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsHomeSubjectSpu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsMemberPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSeckillPromotion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSeckillSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSeckillSkuNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSeckillSkuRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSkuFullReduction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSkuLadder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/SmsSpuBounds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsGrowthChangeHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsIntegrationChangeHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsMemberCollectSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsMemberLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsMemberLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsMemberReceiveAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/UmsMemberStatisticsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/WmsPurchase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/WmsPurchaseDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/WmsWareInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/WmsWareOrderTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/WmsWareOrderTaskDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/entity/WmsWareSku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/utils/AssertUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/utils/QiNiuUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/utils/SaltUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/com/mall/utils/SnowflakeIdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/test-classes/MyTread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/test-classes/PinYinTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/test-classes/PinYinTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/test-classes/PinYinTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyoumall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="db" />
+        <option value="mybatis-config" />
+        <option value="spring-beans.schema" />
+        <option value="web" />
+        <option value="Interface" />
+        <option value="log4j" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/common/src/main/java/cn/com/mall/entity/OperateUser.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\java\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="createModulesForAggregators" value="false" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22SW3RKa7n9tTSkKsnrcWPQqDOk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin_operator/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44252872" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\pcauto\leyoumall\admin_operator\src" />
+      <recent name="E:\java\pcauto\leyoumall\admin_operator\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\pcauto\leyoumall\common\src\main\java\cn\com\mall\common" />
+      <recent name="E:\java\pcauto\leyoumall\admin_operator\src\main\java\cn\com\mall\config\auth" />
+      <recent name="E:\java\pcauto\leyoumall\admin_operator\src\main\resources" />
+      <recent name="E:\java\pcauto\leyoumall\admin_operator\src\main\java\cn\com\mall\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.mall.utils" />
+      <recent name="cn.com.mall.config.web" />
+      <recent name="cn.com.mall" />
+      <recent name="cn.com.mall.entity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.com.mall.pojo.dto.operator" />
+      <recent name="cn.com.mall.pojo.vo.operator" />
+      <recent name="cn.com.mall.common" />
+      <recent name="cn.com.mall.pojo.dto.pms" />
+      <recent name="cn.com.mall.pojo.vo.pms" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.operator">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PinYinTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PinYinTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PinYinTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PinYinTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PinYinTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PinYinTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PinYinTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PinYinTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.501" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/operator/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="admin_operator:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/operator" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_leyoumall" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file enabled="true" id="Tomcat Manager" />
+      <predefined_log_file enabled="true" id="Tomcat Host Manager" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54161" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="admin_operator:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="operator" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="admin_operator:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/operator" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_501_leyoumall" />
+        <option name="HTTP_PORT" value="8091" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <log_file alias="Tomcat Catalina Log" path="%IDEA_RUN:CATALINA_BASE%/logs/catalina.*" skipped="false" />
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" skipped="false" />
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" skipped="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54161" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="admin_operator:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PinYinTest.test04" />
+        <item itemvalue="JUnit.PinYinTest.test03" />
+        <item itemvalue="JUnit.PinYinTest.test02" />
+        <item itemvalue="JUnit.PinYinTest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b42163c1-23a4-4cc4-b344-e62ee6950722" name="Default Changelist" comment="" />
+      <created>1639831270660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639831270660</updated>
+      <workItem from="1639831271978" duration="293000" />
+      <workItem from="1639831637082" duration="616000" />
+      <workItem from="1639832271464" duration="4200000" />
+      <workItem from="1639895740035" duration="1877000" />
+      <workItem from="1639963906580" duration="363000" />
+      <workItem from="1640489809235" duration="599000" />
+      <workItem from="1640497767181" duration="10250000" />
+      <workItem from="1640532141754" duration="1748000" />
+      <workItem from="1640568829579" duration="598000" />
+      <workItem from="1640573705744" duration="6736000" />
+      <workItem from="1640584197180" duration="5394000" />
+      <workItem from="1640595299002" duration="143000" />
+      <workItem from="1640691706433" duration="442000" />
+      <workItem from="1640696257231" duration="2293000" />
+      <workItem from="1640741728337" duration="56000" />
+      <workItem from="1640748208749" duration="7796000" />
+      <workItem from="1640844642277" duration="3673000" />
+      <workItem from="1640917358663" duration="127000" />
+      <workItem from="1640954744493" duration="348000" />
+      <workItem from="1641031868526" duration="6222000" />
+      <workItem from="1641105874363" duration="12837000" />
+      <workItem from="1641178353846" duration="7815000" />
+      <workItem from="1641192997615" duration="37000" />
+      <workItem from="1641221149978" duration="682000" />
+      <workItem from="1641260975734" duration="1862000" />
+      <workItem from="1641300273782" duration="5850000" />
+      <workItem from="1641346448904" duration="418000" />
+      <workItem from="1641378646022" duration="651000" />
+      <workItem from="1641390900734" duration="3613000" />
+      <workItem from="1641465462208" duration="465000" />
+      <workItem from="1641473680805" duration="658000" />
+      <workItem from="1641524101083" duration="3025000" />
+      <workItem from="1641699386522" duration="5007000" />
+      <workItem from="1641707807769" duration="3269000" />
+      <workItem from="1641721081109" duration="1304000" />
+      <workItem from="1641778549943" duration="599000" />
+      <workItem from="1641796225675" duration="4769000" />
+      <workItem from="1641818791388" duration="5009000" />
+      <workItem from="1641866025656" duration="6717000" />
+      <workItem from="1641903324566" duration="6735000" />
+      <workItem from="1641951478949" duration="8746000" />
+      <workItem from="1641998826807" duration="1118000" />
+      <workItem from="1642038439715" duration="5680000" />
+      <workItem from="1642076066557" duration="12267000" />
+      <workItem from="1642125648926" duration="10911000" />
+      <workItem from="1642167549525" duration="11822000" />
+      <workItem from="1642214339898" duration="13016000" />
+      <workItem from="1642246801881" duration="7469000" />
+      <workItem from="1642298137579" duration="14352000" />
+      <workItem from="1642384089450" duration="17647000" />
+      <workItem from="1642421046790" duration="9721000" />
+      <workItem from="1642469217416" duration="10420000" />
+      <workItem from="1642507828287" duration="5294000" />
+      <workItem from="1642556356876" duration="695000" />
+      <workItem from="1642642472418" duration="2553000" />
+      <workItem from="1642681176611" duration="2071000" />
+      <workItem from="1642729072058" duration="1787000" />
+      <workItem from="1642835980665" duration="677000" />
+      <workItem from="1642860364424" duration="1723000" />
+      <workItem from="1642943333590" duration="6105000" />
+      <workItem from="1642987421188" duration="178000" />
+      <workItem from="1643014946671" duration="9590000" />
+      <workItem from="1643077957261" duration="6709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="95" key="#Inspections" timestamp="1640505857793">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="395" y="95" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1640505857793" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1642127027154">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1642127027154" />
+    <state x="542" y="313" key="#Tomcat_Server" timestamp="1640845445203">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="542" y="313" key="#Tomcat_Server/0.0.1536.834@0.0.1536.834" timestamp="1640845445203" />
+    <state x="485" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1640591615834">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="485" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.834@0.0.1536.834" timestamp="1640591615834" />
+    <state x="223" y="0" width="1089" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642229367295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="0" width="1089" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1642229367295" />
+    <state x="487" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640696476037">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="487" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1640696476037" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1643038757565">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1643038757565" />
+    <state x="406" y="192" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1640584455130">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="406" y="192" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1640584455130" />
+    <state x="490" y="64" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1640845729748">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="490" y="64" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.834@0.0.1536.834" timestamp="1640845729748" />
+    <state x="547" y="107" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1643038028688">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="547" y="107" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1643038028688" />
+    <state x="544" y="284" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1642254134570">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="544" y="284" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1642254134570" />
+    <state x="438" y="146" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1641136104114">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="438" y="146" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1641136104114" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642388501239">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1642388501239" />
+    <state x="404" y="247" width="438" height="575" key="FileChooserDialogImpl" timestamp="1643084868288">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="404" y="247" width="438" height="575" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1643084868288" />
+    <state width="1236" height="92" key="GridCell.Tab.0.bottom" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.0.center" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.0.left" timestamp="1643084879006">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1643084879006" />
+    <state width="1236" height="92" key="GridCell.Tab.0.right" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.1.bottom" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.1.center" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.1.left" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.1.right" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.2.bottom" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.2.center" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.2.left" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.2.right" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.3.bottom" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.3.center" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.3.left" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.3.right" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.4.bottom" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.4.center" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.4.left" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="92" key="GridCell.Tab.4.right" timestamp="1643084879007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="92" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1643084879007" />
+    <state width="1236" height="317" key="GridCell.Tab.5.bottom" timestamp="1643078722479">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="317" key="GridCell.Tab.5.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643078722479" />
+    <state width="1236" height="317" key="GridCell.Tab.5.center" timestamp="1643078722478">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="317" key="GridCell.Tab.5.center/0.0.1536.834@0.0.1536.834" timestamp="1643078722478" />
+    <state width="1236" height="317" key="GridCell.Tab.5.left" timestamp="1643078722478">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="317" key="GridCell.Tab.5.left/0.0.1536.834@0.0.1536.834" timestamp="1643078722478" />
+    <state width="1236" height="317" key="GridCell.Tab.5.right" timestamp="1643078722479">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1236" height="317" key="GridCell.Tab.5.right/0.0.1536.834@0.0.1536.834" timestamp="1643078722479" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1640508600922">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1640508600922" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1641180708178">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1641180708178" />
+    <state x="429" y="120" key="NewModule_or_Project.wizard" timestamp="1639832632729">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="429" y="120" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1639832632729" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1643038137875">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1643038137875" />
+    <state x="527" y="151" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1643083638617">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="527" y="151" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.834@0.0.1536.834" timestamp="1643083638617" />
+    <state x="467" y="149" width="602" height="536" key="find.popup" timestamp="1642956243857">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="467" y="149" width="602" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1642956243857" />
+    <state x="178" y="77" key="new project wizard" timestamp="1639832614592">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="77" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1639832614592" />
+    <state x="410" y="144" width="700" height="530" key="recent.locations.popup" timestamp="1643084867468">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="410" y="144" width="700" height="530" key="recent.locations.popup/0.0.1536.834@0.0.1536.834" timestamp="1643084867468" />
+    <state x="545" y="173" key="refactoring.ChangeSignatureDialog" timestamp="1641110776151">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="545" y="173" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1641110776151" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1642222855444">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1642222855444" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1643084867251">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1643084867251" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRoleMenuServiceImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
