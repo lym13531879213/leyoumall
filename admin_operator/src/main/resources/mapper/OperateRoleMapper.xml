@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.com.mall.mapper.OperateRoleMapper">
+<mapper namespace="cn.com.mall.operator.mapper.OperateRoleMapper">
     <select id="getList" resultType="cn.com.mall.entity.OperateRole">
         select role_id,
                role_name,
@@ -22,7 +22,7 @@
         </if>
     </select>
 
-    <insert id="addRole" parameterType="cn.com.mall.pojo.dto.operator.AddRoleDTO">
+    <insert id="addRole" parameterType="cn.com.mall.operator.pojo.dto.operator.AddRoleDTO">
         insert into leyoumall.operate_role(role_name, user_count, remark, create_time, update_time, `status`, deleted)
         VALUES (#{roleName}, 0, #{remark}, now(), now(), #{status}, 0)
     </insert>

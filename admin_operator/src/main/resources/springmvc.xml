@@ -13,7 +13,7 @@
        http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
-    <context:component-scan base-package="cn.com.mall.controller"/>
+    <context:component-scan base-package="cn.com.mall.operator.controller"/>
     <mvc:annotation-driven/>
     <!-- 开启shiro权限注解 -->
     <aop:config proxy-target-class="true"/>

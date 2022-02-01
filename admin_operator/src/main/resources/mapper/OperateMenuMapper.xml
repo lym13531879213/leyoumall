@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.com.mall.mapper.OperateMenuMapper">
+<mapper namespace="cn.com.mall.operator.mapper.OperateMenuMapper">
     <select id="getTreeData" resultMap="Tree_Map">
         SELECT parent.id    parentMenuId,
                parent.label parentTitle,
@@ -13,7 +13,7 @@
         WHERE parent.level = 1
         ORDER BY parent.sort, child.sort
     </select>
-    <resultMap id="Tree_Map" type="cn.com.mall.pojo.vo.operator.OperateMenuVO">
+    <resultMap id="Tree_Map" type="cn.com.mall.operator.pojo.vo.operator.OperateMenuVO">
         <result property="id" column="parentMenuId"/>
         <result property="label" column="parentTitle"/>
         <result property="url" column="parentUrl" />

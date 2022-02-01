@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.com.mall.mapper.SmsCouponSpuCategoryRelationMapper">
+<mapper namespace="cn.com.mall.api.mapper.SmsCouponSpuCategoryRelationMapper">
   <resultMap id="BaseResultMap" type="cn.com.mall.entity.SmsCouponSpuCategoryRelation">
     <!--@mbg.generated-->
     <!--@Table sms_coupon_spu_category_relation-->

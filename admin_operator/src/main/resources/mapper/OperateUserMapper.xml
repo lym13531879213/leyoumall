@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.com.mall.mapper.OperateUserMapper">
+<mapper namespace="cn.com.mall.operator.mapper.OperateUserMapper">
     <insert id="createOperator" parameterType="cn.com.mall.entity.OperateUser">
         insert into leyoumall.operate_user(username, real_name, `password`, salt, email, mobile, `status`,
                                            create_time, update_time,head_img)

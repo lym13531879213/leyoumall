@@ -78,7 +78,7 @@ public class SendEmailUtil {
                 mimeMessage.setSubject(dto.getSubject());
 
                 //邮件内容
-                mimeMessage.setContent(dto.getContent(), "text/html;charset=UTF-8");
+                mimeMessage.setContent("【乐优购】您的验证码是:"+dto.getContent()+",10分钟内有效,请勿泄露!", "text/html;charset=UTF-8");
 
                 //发送邮件
                 transport.sendMessage(mimeMessage, mimeMessage.getAllRecipients());
