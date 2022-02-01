@@ -1,3 +1,5 @@
+import cn.com.mall.common.EmailDTO;
+import cn.com.mall.utils.SendEmailUtil;
 import com.qiniu.util.Auth;
 import org.junit.Test;
 
@@ -60,6 +62,15 @@ public class PinYinTest {
         threadPool.execute(()->{
             System.out.println("线程池");
         });
+    }
+
+    @Test
+    public void test05(){
+        EmailDTO emailDTO = new EmailDTO();
+        emailDTO.setContent("尝试发送邮件");
+        emailDTO.setRecipient("3454812181@qq.com");
+        emailDTO.setSubject("hello");
+        SendEmailUtil.sendMsg(emailDTO);
     }
 }
 class MyTread extends Thread{
