@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="api:war exploded" />
+      <artifact name="admin_operator:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -28,938 +28,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b42163c1-23a4-4cc4-b344-e62ee6950722" name="Default Changelist" comment="init project">
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/config/auth/jwt/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/config/auth/jwt/JwtToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/config/auth/jwt/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/config/auth/shiro/MyRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/config/filter/SimpleCorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/config/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/operator/OperatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/operator/OperatorMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/operator/OperatorRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/pms/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/pms/GoodsCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/BusinessMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/BusinessRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/BusinessRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/BusinessUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsOrderSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsPaymentInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OmsRefundInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperatePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsAttrAttrgroupRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsAttrGroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsCategoryBrandRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsCommentReplayMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsProductAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsSkuImagesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsSkuInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsSkuSaleAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsSpuImagesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/PmsSpuInfoDescMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsCouponMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsCouponSpuCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsCouponSpuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsHomeAdvMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsHomeSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsHomeSubjectSpuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsMemberPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSeckillPromotionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSeckillSessionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSeckillSkuNoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSeckillSkuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSkuFullReductionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSkuLadderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/SmsSpuBoundsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsMemberCollectSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsMemberLevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/WmsPurchaseDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/WmsPurchaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/WmsWareInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/WmsWareOrderTaskDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/WmsWareOrderTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/WmsWareSkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/operator/AddRoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/operator/AssignDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/operator/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/operator/ModifyOperatorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/operator/ModifyRoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/pms/AddBrandDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/pms/AddCategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/pms/ModifyBrandDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/pms/ModifyCategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/dto/pms/TransferCategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/vo/operator/OperateMenuVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/vo/operator/OperatorInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/pojo/vo/pms/ModifyCategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/BusinessMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/BusinessRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/BusinessRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/BusinessUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsOrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsOrderOperateHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsOrderReturnApplyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsOrderReturnReasonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsOrderSettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsPaymentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OmsRefundInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperatePermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateRolePermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsAttrAttrgroupRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsAttrGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsAttrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsCategoryBrandRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsCommentReplayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsProductAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsSkuImagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsSkuInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsSkuSaleAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsSpuImagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/PmsSpuInfoDescService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsCouponHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsCouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsCouponSpuCategoryRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsCouponSpuRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsHomeAdvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsHomeSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsHomeSubjectSpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsMemberPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSeckillPromotionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSeckillSessionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSeckillSkuNoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSeckillSkuRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSkuFullReductionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSkuLadderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/SmsSpuBoundsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsGrowthChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsIntegrationChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsMemberCollectSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsMemberLevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsMemberLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsMemberReceiveAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/UmsMemberStatisticsInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/WmsPurchaseDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/WmsPurchaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/WmsWareInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/WmsWareOrderTaskDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/WmsWareOrderTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/WmsWareSkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/BusinessMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/BusinessRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/BusinessRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/BusinessUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsOrderItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsOrderOperateHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsOrderReturnApplyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsOrderReturnReasonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsOrderSettingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsPaymentInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OmsRefundInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperatePermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateRolePermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsAttrAttrgroupRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsAttrGroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsAttrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsBrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsCategoryBrandRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsCommentReplayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsProductAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsSkuImagesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsSkuInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsSkuSaleAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsSpuImagesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/PmsSpuInfoDescServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsCouponHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsCouponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsCouponSpuRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsHomeAdvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsHomeSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsHomeSubjectSpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsMemberPriceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSeckillPromotionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSeckillSessionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSeckillSkuNoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSeckillSkuRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSkuFullReductionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSkuLadderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/SmsSpuBoundsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsGrowthChangeHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsMemberCollectSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsMemberLevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsMemberLoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/UmsMemberStatisticsInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/WmsPurchaseDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/WmsPurchaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/WmsWareInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/WmsWareOrderTaskDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/WmsWareOrderTaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/WmsWareSkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/config/auth/jwt/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/config/auth/jwt/JwtToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/config/auth/jwt/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/config/auth/shiro/MyRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/config/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/controller/ums/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/BusinessMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/BusinessRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/BusinessRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/BusinessUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsOrderSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsPaymentInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OmsRefundInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperateMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperatePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperateRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperateRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperateRolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperateUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/OperateUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsAttrAttrgroupRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsAttrGroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsCategoryBrandRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsCommentReplayMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsProductAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsSkuImagesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsSkuInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsSkuSaleAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsSpuImagesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/PmsSpuInfoDescMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsCouponMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsCouponSpuCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsCouponSpuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsHomeAdvMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsHomeSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsHomeSubjectSpuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsMemberPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSeckillPromotionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSeckillSessionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSeckillSkuNoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSeckillSkuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSkuFullReductionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSkuLadderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/SmsSpuBoundsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsMemberCollectSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsMemberLevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/WmsPurchaseDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/WmsPurchaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/WmsWareInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/WmsWareOrderTaskDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/WmsWareOrderTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/mapper/WmsWareSkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/pojo/dto/ums/ForgetDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/pojo/dto/ums/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/pojo/dto/ums/RegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/BusinessMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/BusinessRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/BusinessRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/BusinessUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsOrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsOrderOperateHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsOrderReturnApplyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsOrderReturnReasonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsOrderSettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsPaymentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OmsRefundInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperateMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperatePermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperateRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperateRolePermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperateRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperateUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/OperateUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsAttrAttrgroupRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsAttrGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsAttrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsCategoryBrandRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsCommentReplayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsProductAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsSkuImagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsSkuInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsSkuSaleAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsSpuImagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/PmsSpuInfoDescService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SendMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsCouponHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsCouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsCouponSpuCategoryRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsCouponSpuRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsHomeAdvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsHomeSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsHomeSubjectSpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsMemberPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSeckillPromotionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSeckillSessionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSeckillSkuNoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSeckillSkuRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSkuFullReductionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSkuLadderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/SmsSpuBoundsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsGrowthChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsIntegrationChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsMemberCollectSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsMemberLevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsMemberLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsMemberReceiveAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/UmsMemberStatisticsInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/WmsPurchaseDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/WmsPurchaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/WmsWareInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/WmsWareOrderTaskDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/WmsWareOrderTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/WmsWareSkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/BusinessMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/BusinessRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/BusinessRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/BusinessUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsOrderItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsOrderOperateHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsOrderReturnApplyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsOrderReturnReasonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsOrderSettingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsPaymentInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OmsRefundInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperateMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperatePermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperateRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperateRolePermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperateRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperateUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/OperateUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsAttrAttrgroupRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsAttrGroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsAttrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsBrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsCategoryBrandRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsCommentReplayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsProductAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsSkuImagesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsSkuInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsSkuSaleAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsSpuImagesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/PmsSpuInfoDescServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SendMessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsCouponHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsCouponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsCouponSpuRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsHomeAdvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsHomeSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsHomeSubjectSpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsMemberPriceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSeckillPromotionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSeckillSessionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSeckillSkuNoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSeckillSkuRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSkuFullReductionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSkuLadderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SmsSpuBoundsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsGrowthChangeHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsMemberCollectSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsMemberLevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsMemberLoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/UmsMemberStatisticsInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/WmsPurchaseDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/WmsPurchaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/WmsWareInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/WmsWareOrderTaskDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/WmsWareOrderTaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/WmsWareSkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/common/enums/RedisEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/RandomUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/jwt/JwtFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/jwt/JwtToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/jwt/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/auth/shiro/MyRealm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/filter/SimpleCorsFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/config/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/operator/OperatorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/operator/OperatorMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/operator/OperatorRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/pms/BrandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/controller/pms/GoodsCategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/handler/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessRoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/BusinessUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderOperateHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderReturnApplyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderReturnReasonMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsOrderSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsPaymentInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OmsRefundInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperatePermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateRoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateRolePermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/OperateUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsAttrAttrgroupRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsAttrGroupMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsAttrMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsCategoryBrandRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsCommentReplayMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsProductAttrValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSkuImagesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSkuInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSkuSaleAttrValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSpuImagesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/PmsSpuInfoDescMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponSpuCategoryRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsCouponSpuRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsHomeAdvMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsHomeSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsHomeSubjectSpuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsMemberPriceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillPromotionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillSessionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillSkuNoticeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSeckillSkuRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSkuFullReductionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSkuLadderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/SmsSpuBoundsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsGrowthChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsIntegrationChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberCollectSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberLevelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberLoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberReceiveAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/UmsMemberStatisticsInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsPurchaseDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsPurchaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareOrderTaskDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareOrderTaskMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/mapper/WmsWareSkuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/AddRoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/AssignDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/LoginDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/ModifyOperatorDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/operator/ModifyRoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/AddBrandDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/AddCategoryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/ModifyBrandDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/ModifyCategoryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/dto/pms/TransferCategoryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/vo/operator/OperateMenuVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/vo/operator/OperatorInfoVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/pojo/vo/pms/ModifyCategoryVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessRoleMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/BusinessUserRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderOperateHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderReturnApplyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderReturnReasonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsOrderSettingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsPaymentInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OmsRefundInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperatePermissionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateRoleMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateRolePermissionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateUserRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/OperateUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsAttrAttrgroupRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsAttrGroupService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsAttrService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsBrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsCategoryBrandRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsCategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsCommentReplayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsProductAttrValueService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSkuImagesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSkuInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSkuSaleAttrValueService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSpuImagesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/PmsSpuInfoDescService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponSpuCategoryRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsCouponSpuRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsHomeAdvService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsHomeSubjectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsHomeSubjectSpuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsMemberPriceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillPromotionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillSessionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillSkuNoticeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSeckillSkuRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSkuFullReductionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSkuLadderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/SmsSpuBoundsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsGrowthChangeHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsIntegrationChangeHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberCollectSubjectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberLevelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberLoginLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberReceiveAddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/UmsMemberStatisticsInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsPurchaseDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsPurchaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareOrderTaskDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareOrderTaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/WmsWareSkuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessRoleMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/BusinessUserRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderOperateHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderReturnApplyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderReturnReasonServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsOrderSettingServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsPaymentInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OmsRefundInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperatePermissionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRoleMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRolePermissionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateUserRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/OperateUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsAttrAttrgroupRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsAttrGroupServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsAttrServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsBrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsCategoryBrandRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsCategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsCommentReplayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsProductAttrValueServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSkuImagesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSkuInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSkuSaleAttrValueServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSpuImagesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/PmsSpuInfoDescServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsCouponSpuRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsHomeAdvServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsHomeSubjectServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsHomeSubjectSpuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsMemberPriceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillPromotionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillSessionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillSkuNoticeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSeckillSkuRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSkuFullReductionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSkuLadderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/SmsSpuBoundsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsGrowthChangeHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberCollectSubjectServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberLevelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberLoginLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberReceiveAddressServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/UmsMemberStatisticsInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsPurchaseDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsPurchaseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareOrderTaskDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareOrderTaskServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/service/impl/WmsWareSkuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/BusinessUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsPaymentInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsPaymentInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsRefundInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OmsRefundInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperatePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperatePermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/operator/OperatorMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/controller/operator/OperatorMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/mapper/OperateRoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/OperateRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateRoleMenuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRolePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateRolePermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/OperateUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrAttrgroupRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrAttrgroupRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrGroupMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsAttrMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsBrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCategoryBrandRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCategoryBrandRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCommentReplayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsProductAttrValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsProductAttrValueMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuImagesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuImagesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuSaleAttrValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSkuSaleAttrValueMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSpuImagesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSpuImagesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSpuInfoDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/PmsSpuInfoDescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponSpuCategoryRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponSpuCategoryRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponSpuRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsCouponSpuRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeAdvMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeAdvMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeSubjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeSubjectSpuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsHomeSubjectSpuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsMemberPriceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsMemberPriceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillPromotionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillPromotionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSessionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSessionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSkuNoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSkuNoticeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSkuRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSeckillSkuRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSkuFullReductionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSkuFullReductionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSkuLadderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSkuLadderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSpuBoundsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/SmsSpuBoundsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberCollectSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberCollectSubjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberLevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberLoginLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberReceiveAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberStatisticsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsPurchaseDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsPurchaseDetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsPurchaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsPurchaseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareOrderTaskDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareOrderTaskDetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareOrderTaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareOrderTaskMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/mapper/WmsWareSkuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_operator/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin_operator/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/config/auth/jwt/JwtFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/config/auth/jwt/JwtToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/config/auth/jwt/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/config/auth/shiro/MyRealm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/config/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/BusinessMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/BusinessRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/BusinessRoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/BusinessUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsOrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsOrderOperateHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsOrderReturnApplyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsOrderReturnReasonMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsOrderSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsPaymentInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OmsRefundInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperateMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperatePermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperateRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperateRoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperateRolePermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperateUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/OperateUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsAttrAttrgroupRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsAttrGroupMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsAttrMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsCategoryBrandRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsCommentReplayMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsProductAttrValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsSkuImagesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsSkuInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsSkuSaleAttrValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsSpuImagesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/PmsSpuInfoDescMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsCouponHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsCouponMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsCouponSpuCategoryRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsCouponSpuRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsHomeAdvMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsHomeSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsHomeSubjectSpuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsMemberPriceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSeckillPromotionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSeckillSessionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSeckillSkuNoticeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSeckillSkuRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSkuFullReductionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSkuLadderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/SmsSpuBoundsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsGrowthChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsIntegrationChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsMemberCollectSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsMemberLevelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsMemberLoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsMemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsMemberReceiveAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/UmsMemberStatisticsInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/WmsPurchaseDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/WmsPurchaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/WmsWareInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/WmsWareOrderTaskDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/WmsWareOrderTaskMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/mapper/WmsWareSkuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/BusinessMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/BusinessRoleMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/BusinessRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/BusinessUserRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsOrderItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsOrderOperateHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsOrderReturnApplyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsOrderReturnReasonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsOrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsOrderSettingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsPaymentInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OmsRefundInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperateMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperatePermissionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperateRoleMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperateRolePermissionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperateRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperateUserRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/OperateUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsAttrAttrgroupRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsAttrGroupService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsAttrService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsBrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsCategoryBrandRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsCategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsCommentReplayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsProductAttrValueService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsSkuImagesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsSkuInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsSkuSaleAttrValueService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsSpuImagesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/PmsSpuInfoDescService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsCouponHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsCouponService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsCouponSpuCategoryRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsCouponSpuRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsHomeAdvService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsHomeSubjectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsHomeSubjectSpuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsMemberPriceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSeckillPromotionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSeckillSessionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSeckillSkuNoticeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSeckillSkuRelationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSkuFullReductionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSkuLadderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/SmsSpuBoundsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsGrowthChangeHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsIntegrationChangeHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsMemberCollectSubjectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsMemberLevelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsMemberLoginLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsMemberReceiveAddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/UmsMemberStatisticsInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/WmsPurchaseDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/WmsPurchaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/WmsWareInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/WmsWareOrderTaskDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/WmsWareOrderTaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/WmsWareSkuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/BusinessMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/BusinessRoleMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/BusinessRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/BusinessUserRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsOrderItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsOrderOperateHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsOrderReturnApplyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsOrderReturnReasonServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsOrderSettingServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsPaymentInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OmsRefundInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperateMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperatePermissionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperateRoleMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperateRolePermissionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperateRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperateUserRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/OperateUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsAttrAttrgroupRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsAttrGroupServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsAttrServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsBrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsCategoryBrandRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsCategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsCommentReplayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsProductAttrValueServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsSkuImagesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsSkuInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsSkuSaleAttrValueServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsSpuImagesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/PmsSpuInfoDescServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsCouponHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsCouponServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsCouponSpuRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsHomeAdvServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsHomeSubjectServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsHomeSubjectSpuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsMemberPriceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSeckillPromotionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSeckillSessionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSeckillSkuNoticeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSeckillSkuRelationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSkuFullReductionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSkuLadderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/SmsSpuBoundsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsGrowthChangeHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsMemberCollectSubjectServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsMemberLevelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsMemberLoginLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsMemberReceiveAddressServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsMemberServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/UmsMemberStatisticsInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/WmsPurchaseDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/WmsPurchaseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/WmsWareInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/WmsWareOrderTaskDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/WmsWareOrderTaskServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cn/com/mall/service/impl/WmsWareSkuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/BusinessUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsPaymentInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsPaymentInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsRefundInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OmsRefundInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperatePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperatePermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateRolePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateRolePermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/OperateUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsAttrAttrgroupRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsAttrAttrgroupRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsAttrGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsAttrGroupMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsAttrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsAttrMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsBrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsCategoryBrandRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsCategoryBrandRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsCommentReplayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsProductAttrValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsProductAttrValueMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSkuImagesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSkuImagesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSkuInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSkuInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSkuSaleAttrValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSkuSaleAttrValueMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSpuImagesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSpuImagesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSpuInfoDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/PmsSpuInfoDescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponSpuCategoryRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponSpuCategoryRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponSpuRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsCouponSpuRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsHomeAdvMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsHomeAdvMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsHomeSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsHomeSubjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsHomeSubjectSpuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsHomeSubjectSpuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsMemberPriceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsMemberPriceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillPromotionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillPromotionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillSessionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillSessionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillSkuNoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillSkuNoticeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillSkuRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSeckillSkuRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSkuFullReductionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSkuFullReductionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSkuLadderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSkuLadderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSpuBoundsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/SmsSpuBoundsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberCollectSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberCollectSubjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberLevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberLoginLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberReceiveAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberStatisticsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsPurchaseDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsPurchaseDetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsPurchaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsPurchaseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareOrderTaskDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareOrderTaskDetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareOrderTaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareOrderTaskMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/WmsWareSkuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/SendEmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/com/mall/utils/SendEmailUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1058,20 +134,7 @@
       <recent name="cn.com.mall.pojo.dto.operator" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.api">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.operator">
     <configuration name="PinYinTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <option name="PACKAGE_NAME" value="" />
@@ -1438,6 +501,7 @@
       <workItem from="1643014946671" duration="9590000" />
       <workItem from="1643077957261" duration="6946000" />
       <workItem from="1643683846590" duration="16146000" />
+      <workItem from="1643776274739" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1643090478533</created>
@@ -1496,7 +560,8 @@
     <MESSAGE value="init project" />
     <MESSAGE value="初始化api" />
     <MESSAGE value="实现发送邮件功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现发送邮件功能" />
+    <MESSAGE value="1.在operator和api包中分别添加operator和api包用于区分;2.api实现用户登录、注册、忘记密码功能，实现发送邮件redis逻辑设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.在operator和api包中分别添加operator和api包用于区分;2.api实现用户登录、注册、忘记密码功能，实现发送邮件redis逻辑设计" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="95" key="#Inspections" timestamp="1640505857793">
@@ -1523,10 +588,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="487" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1640696476037" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1643728699192">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1643731268773">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1643728699192" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1643731268773" />
     <state x="406" y="192" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1640584455130">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -1559,38 +624,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="404" y="247" width="438" height="575" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1643084868288" />
-    <state width="1236" height="341" key="GridCell.Tab.0.bottom" timestamp="1643727520952">
+    <state width="1236" height="340" key="GridCell.Tab.0.bottom" timestamp="1643734740429">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643727520952" />
-    <state width="1236" height="341" key="GridCell.Tab.0.center" timestamp="1643727520952">
+    <state width="1236" height="340" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643734740429" />
+    <state width="1236" height="340" key="GridCell.Tab.0.center" timestamp="1643734740429">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1643727520952" />
-    <state width="1236" height="341" key="GridCell.Tab.0.left" timestamp="1643727520952">
+    <state width="1236" height="340" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1643734740429" />
+    <state width="1236" height="340" key="GridCell.Tab.0.left" timestamp="1643734740429">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1643727520952" />
-    <state width="1236" height="341" key="GridCell.Tab.0.right" timestamp="1643727520952">
+    <state width="1236" height="340" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1643734740429" />
+    <state width="1236" height="340" key="GridCell.Tab.0.right" timestamp="1643734740429">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1643727520952" />
-    <state width="1236" height="341" key="GridCell.Tab.1.bottom" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1643734740429" />
+    <state width="1236" height="340" key="GridCell.Tab.1.bottom" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.1.center" timestamp="1643727520952">
+    <state width="1236" height="340" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.1.center" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1643727520952" />
-    <state width="1236" height="341" key="GridCell.Tab.1.left" timestamp="1643727520952">
+    <state width="1236" height="340" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.1.left" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1643727520952" />
-    <state width="1236" height="341" key="GridCell.Tab.1.right" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.1.right" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
+    <state width="1236" height="340" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
     <state width="1236" height="394" key="GridCell.Tab.10.bottom" timestamp="1643611935241">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -1639,70 +704,70 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1236" height="394" key="GridCell.Tab.12.right/0.0.1536.834@0.0.1536.834" timestamp="1643611931905" />
-    <state width="1236" height="341" key="GridCell.Tab.2.bottom" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.2.bottom" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.2.center" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.2.center" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.2.left" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.2.left" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.2.right" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.2.right" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.3.bottom" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.3.bottom" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.3.center" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.3.center" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.3.left" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.3.left" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.3.right" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.3.right" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.4.bottom" timestamp="1643727520954">
+    <state width="1236" height="340" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.4.bottom" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643727520954" />
-    <state width="1236" height="341" key="GridCell.Tab.4.center" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.4.center" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.4.left" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.4.left" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.4.right" timestamp="1643727520953">
+    <state width="1236" height="340" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.4.right" timestamp="1643734740430">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1643727520953" />
-    <state width="1236" height="341" key="GridCell.Tab.5.bottom" timestamp="1643722171576">
+    <state width="1236" height="340" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1643734740430" />
+    <state width="1236" height="340" key="GridCell.Tab.5.bottom" timestamp="1643732320910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.5.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643722171576" />
-    <state width="1236" height="341" key="GridCell.Tab.5.center" timestamp="1643722171576">
+    <state width="1236" height="340" key="GridCell.Tab.5.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643732320910" />
+    <state width="1236" height="340" key="GridCell.Tab.5.center" timestamp="1643732320909">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.5.center/0.0.1536.834@0.0.1536.834" timestamp="1643722171576" />
-    <state width="1236" height="341" key="GridCell.Tab.5.left" timestamp="1643722171576">
+    <state width="1236" height="340" key="GridCell.Tab.5.center/0.0.1536.834@0.0.1536.834" timestamp="1643732320909" />
+    <state width="1236" height="340" key="GridCell.Tab.5.left" timestamp="1643732320909">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.5.left/0.0.1536.834@0.0.1536.834" timestamp="1643722171576" />
-    <state width="1236" height="341" key="GridCell.Tab.5.right" timestamp="1643722171576">
+    <state width="1236" height="340" key="GridCell.Tab.5.left/0.0.1536.834@0.0.1536.834" timestamp="1643732320909" />
+    <state width="1236" height="340" key="GridCell.Tab.5.right" timestamp="1643732320909">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1236" height="341" key="GridCell.Tab.5.right/0.0.1536.834@0.0.1536.834" timestamp="1643722171576" />
+    <state width="1236" height="340" key="GridCell.Tab.5.right/0.0.1536.834@0.0.1536.834" timestamp="1643732320909" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1640508600922">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -1727,18 +792,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="627" y="194" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1643697180652" />
-    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643719683679">
+    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1643730109834">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1643719683679" />
+    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1643730109834" />
+    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643731493899">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1643731493899" />
     <state x="527" y="151" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1643083638617">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="527" y="151" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.834@0.0.1536.834" timestamp="1643083638617" />
-    <state x="467" y="149" width="602" height="536" key="find.popup" timestamp="1642956243857">
+    <state x="467" y="149" width="641" height="536" key="find.popup" timestamp="1643729951716">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="467" y="149" width="602" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1642956243857" />
+    <state x="467" y="149" width="641" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1643729951716" />
     <state x="178" y="77" key="new project wizard" timestamp="1639832614592">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -1755,19 +824,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1642222855444" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1643696434731">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1643731388552">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1643696434731" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1643731388552" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin_operator/src/main/java/cn/com/mall/operator/service/impl/OperateRoleMenuServiceImpl.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/api/src/main/java/cn/com/mall/api/service/impl/SendMessageServiceImpl.java</url>
           <line>20</line>

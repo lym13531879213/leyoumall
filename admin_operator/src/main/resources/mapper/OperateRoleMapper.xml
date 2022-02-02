@@ -47,4 +47,10 @@
         where deleted = 0
           and role_id = #{roleId}
     </select>
+
+    <select id="getRoleList" resultType="long">
+        SELECT role_id
+        FROM leyoumall.operate_user_role
+        WHERE user_id = #{operatorId}
+    </select>
 </mapper>

@@ -19,4 +19,15 @@
             </foreach>
         </if>
     </insert>
+
+    <select id="getMenuByOperatorId" resultType="string">
+        select menu.url
+        from leyoumall.operate_role_menu roleMenu,
+             leyoumall.operate_menu menu
+        where roleMenu.menu_id = menu.id
+          and roleMenu.role_id in
+        <foreach collection="roleIds" item="roleId" open="(" close=")" separator=",">
+            #{roleId}
+        </foreach>
+    </select>
 </mapper>

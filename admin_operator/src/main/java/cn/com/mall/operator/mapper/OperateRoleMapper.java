@@ -21,4 +21,6 @@ public interface OperateRoleMapper {
     boolean deleteRole(@Param("roleId") Long roleId);
 
     OperateRole getById(Long roleId);
+
+    List<Long> getRoleList(@Param("operatorId") long operatorId);
 }
