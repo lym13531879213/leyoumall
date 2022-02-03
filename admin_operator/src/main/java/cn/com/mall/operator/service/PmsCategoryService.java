@@ -28,4 +28,7 @@ public interface PmsCategoryService {
 
     Integer checkLevelLen(Long catId);
 
+    List<PmsCategory> getTreeList();
+
+    List<PmsCategory> getTreeChildren(PmsCategory parent, List<PmsCategory> all);
 }

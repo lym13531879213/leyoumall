@@ -13,11 +13,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 /**
  * @author liaoyuming
@@ -67,7 +65,7 @@ public class PmsCategoryServiceImpl implements PmsCategoryService {
     }
 
     @Override
-    public boolean addCategory( AddCategoryDTO dto) {
+    public boolean addCategory(AddCategoryDTO dto) {
         PmsCategory parentCategory = pmsCategoryMapper.getCategory(dto.getParentCid());
         if (parentCategory == null && dto.getParentCid() != 0) {
             throw new RuntimeException("该上一级商品分类不存在");
@@ -144,6 +142,25 @@ public class PmsCategoryServiceImpl implements PmsCategoryService {
             len.set(max.get());
         }
         return len.get();
+    }
+
+    @Override
+    public List<PmsCategory> getTreeList() {
+        List<PmsCategory> list = pmsCategoryMapper.getList(null, null, null, null, null);
+        return list.stream().filter(category -> category.getCatLevel() == 1)
+                .map(cate -> {
+                    cate.setChildren(getTreeChildren(cate, list));
+                    return cate;
+                }).sorted(Comparator.comparingInt(PmsCategory::getSort)).collect(Collectors.toList());
+    }
+
+    @Override
+    public List<PmsCategory> getTreeChildren(PmsCategory parent, List<PmsCategory> all) {
+        return all.stream().filter(cate->cate.getParentCid().equals(parent.getCatId()))
+                .map(cate1->{
+                    cate1.setChildren(getTreeChildren(cate1,all));
+                    return cate1;
+                }).sorted(Comparator.comparingInt(PmsCategory::getSort)).collect(Collectors.toList());
     }
 
 }

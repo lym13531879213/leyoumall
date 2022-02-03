@@ -1,6 +1,8 @@
 package cn.com.mall.entity;
 
 import java.util.Date;
+import java.util.List;
+
 import lombok.Data;
 
 /**
@@ -47,4 +49,9 @@ public class PmsAttrGroup {
      * 更新时间
      */
     private Date updateTime;
+
+    /**
+     * 所属分类列表
+     */
+    List<Long> cateIds;
 }

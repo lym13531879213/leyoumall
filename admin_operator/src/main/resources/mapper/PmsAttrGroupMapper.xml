@@ -1,20 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.com.mall.operator.mapper.PmsAttrGroupMapper">
-  <resultMap id="BaseResultMap" type="cn.com.mall.entity.PmsAttrGroup">
-    <!--@mbg.generated-->
-    <!--@Table pms_attr_group-->
-    <id column="attr_group_id" jdbcType="BIGINT" property="attrGroupId" />
-    <result column="attr_group_name" jdbcType="VARCHAR" property="attrGroupName" />
-    <result column="sort" jdbcType="INTEGER" property="sort" />
-    <result column="descript" jdbcType="VARCHAR" property="descript" />
-    <result column="icon" jdbcType="VARCHAR" property="icon" />
-    <result column="catelog_id" jdbcType="BIGINT" property="catelogId" />
-    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
-  </resultMap>
-  <sql id="Base_Column_List">
-    <!--@mbg.generated-->
-    attr_group_id, attr_group_name, sort, descript, icon, catelog_id, create_time, update_time
-  </sql>
+    <select id="getPage" resultType="cn.com.mall.entity.PmsAttr">
+        select attr_group_id,
+               attr_group_name,
+               sort,
+               descript,
+               catelog_id,
+               create_time,
+               update_time
+        from leyoumall.pms_attr_group
+        <where>
+            <if test="catId != null">
+                catelog_id = #{catId}
+            </if>
+            <if test="groupId != null">
+                and attr_group_id = #{groupId}
+            </if>
+            <if test="attrGroupName != null and attrGroupName != ''">
+                and attr_group_name like concat('%', #{attrGroupName}, '%'
+            </if>
+        </where>
+    </select>
+
+    <insert id="addAttrGroup" parameterType="cn.com.mall.operator.pojo.dto.pms.AttrGroupDTO">
+        insert into leyoumall.pms_attr_group(attr_group_name, sort, descript, catelog_id, cateIds, create_time,
+                                             update_time)
+        values (#{attrGroupName}, #{sort}, #{description}, #{catId}, #{cateIds}, now(), now())
+    </insert>
+
+    <select id="getAttrGroup" resultType="cn.com.mall.entity.PmsAttrGroup">
+        select attr_group_id,
+               attr_group_name,
+               sort,
+               descript,
+               catelog_id,
+               create_time,
+               update_time,
+               cateIds
+        from leyoumall.pms_attr_group
+        where attr_group_id = #{attrGroupId}
+    </select>
+
+    <delete id="deleteAttrGroup">
+        delete
+        from leyoumall.pms_attr_group
+        where attr_group_id = #{attrGroupId}
+    </delete>
+
+    <update id="putAttrGroup" parameterType="cn.com.mall.operator.pojo.dto.pms.AttrGroupDTO">
+        update leyoumall.pms_attr_group
+        set attr_group_name = #{attrGroupName},
+            sort            = #{sort},
+            descript        = #{description},
+            catelog_id      = #{catId},
+            cateIds         = #{cateIds},
+            create_time     = now(),
+            update_time     = now()
+        where attr_group_id = #{attrGroupId}
+    </update>
 </mapper>

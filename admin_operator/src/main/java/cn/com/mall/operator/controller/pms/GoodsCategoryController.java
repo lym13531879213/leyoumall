@@ -33,6 +33,11 @@ public class GoodsCategoryController extends BaseController {
         return Result.success(pageInfo);
     }
 
+    @GetMapping("/tree")
+    public Result<List<PmsCategory>> getTreeList(){
+        return Result.success(categoryService.getTreeList());
+    }
+
     /**
      * 切换显示状态
      *

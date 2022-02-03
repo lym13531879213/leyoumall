@@ -1,6 +1,8 @@
 package cn.com.mall.entity;
 
 import java.util.Date;
+import java.util.List;
+
 import lombok.Data;
 
 /**
@@ -68,4 +70,9 @@ public class PmsCategory {
      * 删除状态[0-未删除，1-已删除]
      */
     private Integer deleted;
+
+    /**
+     * 子分类
+     */
+    private List<PmsCategory> children;
 }
