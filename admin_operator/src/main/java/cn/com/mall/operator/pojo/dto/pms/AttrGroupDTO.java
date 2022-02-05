@@ -14,7 +14,6 @@ import java.util.List;
 @Data
 public class AttrGroupDTO {
 
-    @NotNull(message = "分组id")
     private Long attrGroupId;
 
     @NotBlank(message = "组名不能为空")

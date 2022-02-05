@@ -53,5 +53,5 @@ public class PmsAttrGroup {
     /**
      * 所属分类列表
      */
-    List<Long> cateIds;
+    String cateIds;
 }

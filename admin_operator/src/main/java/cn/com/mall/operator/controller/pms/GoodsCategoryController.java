@@ -33,7 +33,7 @@ public class GoodsCategoryController extends BaseController {
         return Result.success(pageInfo);
     }
 
-    @GetMapping("/tree")
+    @GetMapping("/cascade")
     public Result<List<PmsCategory>> getTreeList(){
         return Result.success(categoryService.getTreeList());
     }

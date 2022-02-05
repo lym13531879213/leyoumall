@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 public interface PmsAttrGroupMapper {
-    List<PmsAttr> getPage(@Param("catId") Long catId, @Param("groupId") Long groupId, @Param("attrGroupName") String attrGroupName);
+    List<PmsAttrGroup> getPage(@Param("groupId") Long groupId, @Param("attrGroupName") String attrGroupName);
 
     boolean addAttrGroup(AttrGroupDTO dto);
 

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.com.mall.operator.mapper.PmsAttrGroupMapper">
-    <select id="getPage" resultType="cn.com.mall.entity.PmsAttr">
+    <select id="getPage" resultType="cn.com.mall.entity.PmsAttrGroup">
         select attr_group_id,
                attr_group_name,
                sort,
                descript,
+               cateIds,
                catelog_id,
                create_time,
                update_time
         from leyoumall.pms_attr_group
         <where>
-            <if test="catId != null">
-                catelog_id = #{catId}
-            </if>
             <if test="groupId != null">
                 and attr_group_id = #{groupId}
             </if>

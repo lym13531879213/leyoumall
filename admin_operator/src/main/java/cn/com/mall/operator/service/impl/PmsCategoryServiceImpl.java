@@ -158,7 +158,8 @@ public class PmsCategoryServiceImpl implements PmsCategoryService {
     public List<PmsCategory> getTreeChildren(PmsCategory parent, List<PmsCategory> all) {
         return all.stream().filter(cate->cate.getParentCid().equals(parent.getCatId()))
                 .map(cate1->{
-                    cate1.setChildren(getTreeChildren(cate1,all));
+                    List<PmsCategory> treeChildren = getTreeChildren(cate1, all);
+                    cate1.setChildren(treeChildren.size()==0?null:treeChildren);
                     return cate1;
                 }).sorted(Comparator.comparingInt(PmsCategory::getSort)).collect(Collectors.toList());
     }

@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface PmsAttrGroupService {
 
-    List<PmsAttr> getPage(Object page, Long catId, Long groupId, String attrGroupName);
+    List<PmsAttrGroup> getPage(Object page, Long catId, Long groupId, String attrGroupName);
 
     boolean addAttrGroup(AttrGroupDTO dto);
 
