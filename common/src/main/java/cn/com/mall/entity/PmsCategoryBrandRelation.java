@@ -20,17 +20,4 @@ public class PmsCategoryBrandRelation {
      */
     private Long catelogId;
 
-    private String brandName;
-
-    private String catelogName;
-
-    /**
-     * 创建时间
-     */
-    private Date createTime;
-
-    /**
-     * 更新时间
-     */
-    private Date updateTime;
 }
