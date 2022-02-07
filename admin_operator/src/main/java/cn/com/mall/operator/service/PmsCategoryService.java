@@ -4,6 +4,7 @@ import cn.com.mall.entity.PmsCategory;
 import cn.com.mall.operator.pojo.dto.pms.AddCategoryDTO;
 import cn.com.mall.operator.pojo.dto.pms.ModifyCategoryDTO;
 import cn.com.mall.operator.pojo.dto.pms.TransferCategoryDTO;
+import cn.com.mall.operator.pojo.vo.pms.CategoryListVO;
 import cn.com.mall.operator.pojo.vo.pms.ModifyCategoryVO;
 
 import java.util.List;

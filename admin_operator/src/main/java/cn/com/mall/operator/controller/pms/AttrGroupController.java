@@ -5,6 +5,8 @@ import cn.com.mall.common.ResultCode;
 import cn.com.mall.entity.PmsAttrGroup;
 import cn.com.mall.operator.controller.BaseController;
 import cn.com.mall.operator.pojo.dto.pms.AttrGroupDTO;
+import cn.com.mall.operator.pojo.vo.pms.AttrAndGroupRelationVO;
+import cn.com.mall.operator.service.PmsAttrAttrgroupRelationService;
 import cn.com.mall.operator.service.PmsAttrGroupService;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,9 @@ public class AttrGroupController extends BaseController {
 
     @Autowired
     private PmsAttrGroupService attrGroupService;
+
+    @Autowired
+    private PmsAttrAttrgroupRelationService relationService;
 
     @GetMapping("page")
     public Result<PageInfo<PmsAttrGroup>> getPage(Integer pageNo, Integer pageSize, Long catId, Long groupId, String attrGroupName) {
@@ -61,6 +66,29 @@ public class AttrGroupController extends BaseController {
         boolean result = attrGroupService.putAttrGroup(dto);
         if (!result) {
             return Result.failure(ResultCode.FAIL, "修改属性分组失败");
+        }
+        return Result.success();
+    }
+
+    @PostMapping("{attrGroupId}/relateAttribute/{attrId}")
+    public Result relateAttribute(@PathVariable Long attrGroupId,@PathVariable Long attrId,@RequestParam Integer sort){
+        boolean result = relationService.relateAttribute(attrGroupId,attrId,sort);
+        if (!result) {
+            return Result.failure(ResultCode.FAIL, "新增分组-属性关联失败");
+        }
+        return Result.success();
+    }
+
+    @GetMapping("{attrGroupId}/relateAttribute")
+    public Result<List<AttrAndGroupRelationVO>> getRelation(@PathVariable Long attrGroupId){
+        return Result.success(relationService.getRelation(attrGroupId));
+    }
+
+    @DeleteMapping("relateAttribute")
+    public Result deleteRelation(@RequestBody List<Long> ids){
+        boolean result = relationService.deleteRelation(ids);
+        if (!result) {
+            return Result.failure(ResultCode.FAIL, "删除分组-属性关联失败");
         }
         return Result.success();
     }

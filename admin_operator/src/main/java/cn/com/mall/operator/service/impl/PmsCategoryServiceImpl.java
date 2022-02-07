@@ -5,6 +5,7 @@ import cn.com.mall.operator.mapper.PmsCategoryMapper;
 import cn.com.mall.operator.pojo.dto.pms.AddCategoryDTO;
 import cn.com.mall.operator.pojo.dto.pms.ModifyCategoryDTO;
 import cn.com.mall.operator.pojo.dto.pms.TransferCategoryDTO;
+import cn.com.mall.operator.pojo.vo.pms.CategoryListVO;
 import cn.com.mall.operator.pojo.vo.pms.ModifyCategoryVO;
 import cn.com.mall.operator.service.PmsCategoryService;
 import cn.com.mall.utils.AssertUtil;

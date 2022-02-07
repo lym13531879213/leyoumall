@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.com.mall.operator.mapper.PmsAttrAttrgroupRelationMapper">
+    <select id="getRelation" resultType="cn.com.mall.operator.pojo.vo.pms.AttrAndGroupRelationVO">
+        select relation.id,
+               relation.attr_group_id,
+               relation.attr_id,
+               relation.attr_sort as sort,
+               attr.attr_name,
+               attrGroup.attr_group_name
+        from leyoumall.pms_attr attr,
+             leyoumall.pms_attr_attrgroup_relation relation,
+             leyoumall.pms_attr_group attrGroup
+        where relation.attr_id = attr.attr_id
+          and relation.attr_group_id = attrGroup.attr_group_id
+          and relation.attr_group_id = #{attrGroupId}
+    </select>
 
+    <delete id="deleteRelations">
+        delete from leyoumall.pms_attr_attrgroup_relation where id in 
+        <foreach collection="ids" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </delete>
 </mapper>

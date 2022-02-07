@@ -3563,77 +3563,77 @@
       <Comment>属性图标</Comment>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="793" parent="255" name="value_select">
+    <column id="793" parent="255" name="value_type">
       <Position>5</Position>
+      <Comment>属性值类型[0 - 单值，1-多值]</Comment>
+      <DataType>tinyint(2)|0s</DataType>
+    </column>
+    <column id="794" parent="255" name="value_select">
+      <Position>6</Position>
       <Comment>可选值列表[用逗号分隔]</Comment>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="794" parent="255" name="attr_type">
-      <Position>6</Position>
+    <column id="795" parent="255" name="attr_type">
+      <Position>7</Position>
       <Comment>属性类型[0-销售属性，1-基本属性，2-既是销售属性又是基本属性]</Comment>
       <DataType>tinyint(4)|0s</DataType>
     </column>
-    <column id="795" parent="255" name="enable">
-      <Position>7</Position>
+    <column id="796" parent="255" name="enable">
+      <Position>8</Position>
       <Comment>启用状态[0 - 禁用，1 - 启用]</Comment>
       <DataType>bigint(20)|0s</DataType>
     </column>
-    <column id="796" parent="255" name="catelog_id">
-      <Position>8</Position>
+    <column id="797" parent="255" name="catelog_id">
+      <Position>9</Position>
       <Comment>所属分类</Comment>
       <DataType>bigint(20)|0s</DataType>
     </column>
-    <column id="797" parent="255" name="show_desc">
-      <Position>9</Position>
+    <column id="798" parent="255" name="show_desc">
+      <Position>10</Position>
       <Comment>快速展示【是否展示在介绍上；0-否 1-是】，在sku中仍然可以调整</Comment>
       <DataType>tinyint(4)|0s</DataType>
     </column>
-    <column id="798" parent="255" name="create_time">
-      <Position>10</Position>
+    <column id="799" parent="255" name="create_time">
+      <Position>11</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="799" parent="255" name="update_time">
-      <Position>11</Position>
+    <column id="800" parent="255" name="update_time">
+      <Position>12</Position>
       <Comment>更新时间</Comment>
       <DataType>datetime|0s</DataType>
     </column>
-    <key id="800" parent="255" name="PRIMARY">
+    <column id="801" parent="255" name="cateIds">
+      <Position>13</Position>
+      <Comment>属性分组列表</Comment>
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <key id="802" parent="255" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>attr_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="801" parent="256" name="id">
+    <column id="803" parent="256" name="id">
       <Position>1</Position>
       <Comment>id</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="802" parent="256" name="attr_id">
+    <column id="804" parent="256" name="attr_id">
       <Position>2</Position>
       <Comment>属性id</Comment>
       <DataType>bigint(20)|0s</DataType>
     </column>
-    <column id="803" parent="256" name="attr_group_id">
+    <column id="805" parent="256" name="attr_group_id">
       <Position>3</Position>
       <Comment>属性分组id</Comment>
       <DataType>bigint(20)|0s</DataType>
     </column>
-    <column id="804" parent="256" name="attr_sort">
+    <column id="806" parent="256" name="attr_sort">
       <Position>4</Position>
       <Comment>属性组内排序</Comment>
       <DataType>int(11)|0s</DataType>
-    </column>
-    <column id="805" parent="256" name="create_time">
-      <Position>5</Position>
-      <Comment>创建时间</Comment>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <column id="806" parent="256" name="update_time">
-      <Position>6</Position>
-      <Comment>更新时间</Comment>
-      <DataType>datetime|0s</DataType>
     </column>
     <key id="807" parent="256" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
