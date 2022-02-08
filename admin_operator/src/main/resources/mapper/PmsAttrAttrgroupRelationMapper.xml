@@ -5,7 +5,6 @@
         select relation.id,
                relation.attr_group_id,
                relation.attr_id,
-               relation.attr_sort as sort,
                attr.attr_name,
                attrGroup.attr_group_name
         from leyoumall.pms_attr attr,
@@ -17,9 +16,29 @@
     </select>
 
     <delete id="deleteRelations">
-        delete from leyoumall.pms_attr_attrgroup_relation where id in 
+        delete
+        from leyoumall.pms_attr_attrgroup_relation where id in
         <foreach collection="ids" item="id" open="(" close=")" separator=",">
             #{id}
         </foreach>
     </delete>
+
+    <select id="checkExist" resultType="cn.com.mall.operator.pojo.po.ExistPO">
+        select count(*) count, attr_id as id
+        from leyoumall.pms_attr_attrgroup_relation
+                where attr_group_id = #{attrGroupId}
+                  and attr_id in
+        <foreach collection="attrIds" separator="," open="(" close=")" item="attrId">
+            #{attrId}
+        </foreach>
+    </select>
+
+    <insert id="relateAttribute" parameterType="cn.com.mall.operator.pojo.po.AttributePO">
+        insert into leyoumall.pms_attr_attrgroup_relation(attr_id, attr_group_id) values
+        <if test="attrIds != null and attrIds.size() != 0">
+            <foreach collection="attrIds" item="attrId" separator=",">
+                (#{attrId}, #{attrGroupId})
+            </foreach>
+        </if>
+    </insert>
 </mapper>

@@ -70,9 +70,9 @@ public class AttrGroupController extends BaseController {
         return Result.success();
     }
 
-    @PostMapping("{attrGroupId}/relateAttribute/{attrId}")
-    public Result relateAttribute(@PathVariable Long attrGroupId,@PathVariable Long attrId,@RequestParam Integer sort){
-        boolean result = relationService.relateAttribute(attrGroupId,attrId,sort);
+    @PostMapping("{attrGroupId}/relateAttribute")
+    public Result relateAttribute(@PathVariable Long attrGroupId, @RequestBody List<Long> attrIds) {
+        boolean result = relationService.relateAttribute(attrGroupId, attrIds);
         if (!result) {
             return Result.failure(ResultCode.FAIL, "新增分组-属性关联失败");
         }
@@ -80,12 +80,12 @@ public class AttrGroupController extends BaseController {
     }
 
     @GetMapping("{attrGroupId}/relateAttribute")
-    public Result<List<AttrAndGroupRelationVO>> getRelation(@PathVariable Long attrGroupId){
+    public Result<List<AttrAndGroupRelationVO>> getRelation(@PathVariable Long attrGroupId) {
         return Result.success(relationService.getRelation(attrGroupId));
     }
 
     @DeleteMapping("relateAttribute")
-    public Result deleteRelation(@RequestBody List<Long> ids){
+    public Result deleteRelation(@RequestBody List<Long> ids) {
         boolean result = relationService.deleteRelation(ids);
         if (!result) {
             return Result.failure(ResultCode.FAIL, "删除分组-属性关联失败");

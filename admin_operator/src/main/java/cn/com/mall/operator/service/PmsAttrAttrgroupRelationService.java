@@ -7,7 +7,7 @@ import java.util.List;
 public interface PmsAttrAttrgroupRelationService{
 
 
-    boolean relateAttribute(Long attrGroupId, Long attrId, Integer sort);
+    boolean relateAttribute(Long attrGroupId, List<Long> attrId);
 
     List<AttrAndGroupRelationVO> getRelation(Long attrGroupId);
 

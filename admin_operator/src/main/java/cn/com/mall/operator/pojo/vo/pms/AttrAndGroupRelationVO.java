@@ -9,5 +9,4 @@ public class AttrAndGroupRelationVO {
     private String attrName;
     private Long attrGroupId;
     private String attrGroupName;
-    private Integer sort;
 }
